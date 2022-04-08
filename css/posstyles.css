@@ -1,0 +1,28 @@
+#headline {
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    margin: 0;
+    }
+    .firstparagraph {
+        position: absolute;
+        right: 20px;
+        }
+    #content {
+        position: relative;
+        }  
+    .author {
+        position: static;
+        left: 50px;
+        }  
+    .date {
+        position: relative;
+        left: 50px;
+        } 
+     
+    body {
+        margin-top: 50px;
+        }
+      
+    
+                              
