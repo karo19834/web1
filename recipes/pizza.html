@@ -40,6 +40,48 @@
                 <dd>Are delicous veggies</dd>
             </dl>
         </article>
+        <!--Form-->
+    <form action="http://example.com/blog" method="post">
+        <p>Vorname:</p>
+        <input name="firstname" type="text" value="Conny" maxlength="5" disabled>
+        <p>Password</p>
+        <input type="password" name="password">
+        <p>AGBs gelesen</p>
+        <input type="checkbox" name="agbs">
+        <p>Foto</p>
+        <input type="file" name="foto">
+        <div>
+         <input type="radio" name="sex" value="F">Weiblich
+         <input type="radio" name="sex" value="M">Männlich
+         <input type="radio" name="sex" value="D">Diverse
+        </div>
+        <div>
+        Anmerkung
+        <textarea name="comment" cols="50" row="10">
+
+        </textarea>
+    </div>
+    <div>
+        Land:
+<select name="country">
+    <option disabled selected>Bitte auswählen </option>
+   <option value="AT">Österreich</option>
+   <option value="DE">Deutschland</option>
+   
+</select>
+
+    </div>
+    <input type="color" name="color">
+    <input type="date" name="datum">
+    <input type="email" name="email">
+    <input type="hidden" value="1.2">
+    <input type="number" step="10">
+    <input type="time">
+        <button type="submit">Speichern</button>
+        <button type="reset">Cancel</button>
+        <button type="button">Nix</button>
+
+    </form>
     </main>
     <footer>
         &copy; Karolina Wasalska
